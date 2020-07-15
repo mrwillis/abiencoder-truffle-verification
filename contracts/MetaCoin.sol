@@ -33,4 +33,8 @@ contract MetaCoin {
 	function getBalance(address addr) public view returns(uint) {
 		return balances[addr];
 	}
+
+	function test(ConvertLib.TestStruct memory testObj) public pure {
+		require(testObj.name > 10);
+	}
 }
