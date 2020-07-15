@@ -1,0 +1,25 @@
+{
+  "name": "@sportx-bet/abiencoder-truffle-verification",
+  "version": "1.0.0",
+  "description": "To reproduce:",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "ethers": "^5.0.5",
+    "truffle-plugin-verify": "^0.3.11",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrwillis/abiencoder-truffle-verification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrwillis/abiencoder-truffle-verification/issues"
+  },
+  "homepage": "https://github.com/mrwillis/abiencoder-truffle-verification#readme"
+}

@@ -13,6 +13,10 @@ module.exports = {
       },
     },
   },
+  plugins: ["truffle-plugin-verify"],
+  api_keys: {
+    etherscan: process.env.ETHERSCAN_API_KEY
+  },
   networks: {
     rinkeby: {
       provider: new HDWalletProvider(
